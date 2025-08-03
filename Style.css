@@ -1,0 +1,121 @@
+.animated-heading{
+background:linear-gradient(135deg, #2e3192, #18ffff);
+    padding:25px 25px;
+    border-radius:25px;
+    box-shadow:0 5px 8px rgba(0,0,0,0.8);
+    border:none;
+    outline:none;
+    font-size:25px;
+    display:inline-block;
+    animation: slideup 2s ease forwards  ;
+}
+      @keyframes slideup {
+        from {
+           transform: translateY(0);
+           opacity:0;
+            }   
+        to {
+        transform: translateY(50px);
+        opacity:1;
+        }
+     }
+      
+h3{
+ padding:20px 40px;
+background:linear-gradient(135deg, #4CC9F0, #3A0CA3);
+box-shadow:0 4px 8px rgba(0,0,0,0.8);
+padding:15px 29px;
+border-radius:25px;
+margin-top:20px;
+display:inline-block ;
+border:1px solid #071E55;
+animation:bounce 1s ease-in-out infinite ;
+}
+button:hover{
+    background-color:Skyblue;
+    
+}
+      @keyframes bounce {
+          0%, 100% {
+              transform: translateY(0);
+          }
+          50% {
+              transform: translateY(-30px);
+          }
+      }
+tabel td th {
+    border="1"
+    text-align:center;
+    justify-content:center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+   } 
+.modern-para{
+    background:linear-gradient(135deg, #143074);
+    padding:60px 30px;
+    border-radius:10px;
+    outline:none;
+    boder:none;
+    box-shadow:0 4px 8px rgba(0,0,0,0.8);
+}
+.form-container{
+    padding:20px 30px;
+background-color:white;
+    border-radius:20px;
+    font-size:20px;
+    width:80%;
+    box-shadow:0 4px 8px rgba(0,0,0,1);
+    border:none;
+}
+.form-group{
+    margin-bottom:40px;
+    
+}
+.form-input {
+    border: 1px solid gray;
+    border-radius:25px;
+    padding:5px 50px;
+    box-shadow:0 4px 8px rgba(0,0,0,1);
+    border:none;
+    width:80%;
+    
+    
+}
+.normal-heading{
+    font-size:bold;
+}
+.form-btn{
+    padding:20px 12px;
+    border-radius:25px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+    border:none;
+    
+}
+.form-group input{
+    padding:15px 25px;
+    border-radius:25px;
+    border:none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.8);
+    
+}
+button{
+    padding:17px 50px;
+    border-radius:25px;
+background:linear-gradient(to right, #D4145A ,#FBB03B);
+color:white;
+box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+font-size:18px;
+animation:scaleup 5s ease forwards;}
+   @keyframes scaleup{
+       from{
+           transform:scale(0.5);
+           opacity:0;
+       }
+       to{
+           transform:scale(1);
+           opacity:1;
+       }
+   }
+.form-group label{
+    color:white;
+    font-weight:bold;
+}
