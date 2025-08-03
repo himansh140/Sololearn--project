@@ -124,18 +124,7 @@ background-color:white;
     margin-bottom:40px;
     
 }
-.form-input {
-    border: 1px solid gray;
-    border-radius:25px;
-    padding:5px 50px;
-    box-shadow:0 4px 8px rgba(0,0,0,1);
-    border:none;
-    width:90%;
- max-width:500px;
- 
-    
-    
-}
+
 .normal-heading{
     font-size:bold;
 }
