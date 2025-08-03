@@ -4,7 +4,10 @@ min-height:100vh;
 padding-top:200px;
 
 color:white;
- }     
+ overflow-x:hidden;
+ } 
+h1{font-size:8vw;}
+ 
  nav{
      display:flex;
      hight:30px;
@@ -62,7 +65,15 @@ background:linear-gradient(135deg, #2e3192, #18ffff);
         opacity:1;
         }
      }
-      
+      @media screen and (max-width: 600px) {
+  h1 {
+    font-size: 10vw;
+  }
+
+  .form-container {
+    padding: 10px;
+  }
+      }
 h3{
  padding:20px 40px;
 background:linear-gradient(135deg, #4CC9F0, #3A0CA3);
@@ -119,7 +130,9 @@ background-color:white;
     padding:5px 50px;
     box-shadow:0 4px 8px rgba(0,0,0,1);
     border:none;
-    width:80%;
+    width:90%;
+ max-width:500px;
+ 
     
     
 }
