@@ -1,3 +1,10 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
 body{
 background:linear-gradient(135deg, #001848);
 min-height:100vh;
@@ -32,7 +39,46 @@ h1{font-size:8vw;}
   gap:20px;
   flex-wrap:wrap;
   justify-content:center;y
-     
+     /* Responsive Card Container */
+.card {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background: #0d2b6a;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+/* Button Responsive */
+button, .btn {
+  font-size: clamp(14px, 2.5vw, 18px);
+  padding: 12px 24px;
+  border-radius: 50px;
+}
+
+/* Table Responsive */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+/* Media Query for smaller screen */
+@media screen and (max-width: 600px) {
+  .card h2, .card p {
+    font-size: 4.5vw;
+  }
+
+  table th, table td {
+    font-size: 3.8vw;
+  }
+}
  }
  button{
      padding:12px 25px;
@@ -44,6 +90,7 @@ h1{font-size:8vw;}
      cursor:pointer;
      
  }
+
  nav ul li{
      list-style:none;
      margin:0 px;
