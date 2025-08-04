@@ -23,8 +23,15 @@ h1{font-size:8vw;}
  html{
      scroll-behavior:smooth;
  }
+
+.box{
+ overflow-wrap:break-word;
+ word-wrap:break-word;}
  nav ul{
-     display:;
+     display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+  justify-content:center;y
      
  }
  button{
@@ -71,8 +78,29 @@ background:linear-gradient(135deg, #2e3192, #18ffff);
   }
 
   .form-container {
+   width:90%;
+   max-width:1000px;
+    padding: 10px;
+   margin:0 auto;
+  }
+       @media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 6vw;
+  }
+
+  .container {
     padding: 10px;
   }
+
+  .box {
+    width: 100%;
+  }
+       }
       }
 h3{
  padding:20px 40px;
@@ -143,12 +171,14 @@ background-color:white;
     
 }
 button{
-    padding:17px 50px;
+    padding:10px 20px;
     border-radius:25px;
 background:linear-gradient(to right, #D4145A ,#FBB03B);
 color:white;
 box-shadow: 0 4px 8px rgba(0,0,0,0.8);
-font-size:18px;
+font-size:clamp(14x, 2.5vw, 20px)
+ 
+ 
 animation:scaleup 5s ease forwards;}
    @keyframes scaleup{
        from{
