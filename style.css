@@ -105,7 +105,7 @@ background:linear-gradient(135deg, #2e3192, #18ffff);
     box-shadow:0 5px 8px rgba(0,0,0,0.8);
     border:none;
     outline:none;
-    font-size:25px;
+    
     display:inline-block;
     animation: slideup 2s ease forwards  ;
 }
