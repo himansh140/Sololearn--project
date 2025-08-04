@@ -100,7 +100,7 @@ th, td {
  }
 .animated-heading{
 background:linear-gradient(135deg, #2e3192, #18ffff);
-    padding:25px 25px;
+    padding:0;
     border-radius:25px;
     box-shadow:0 5px 8px rgba(0,0,0,0.8);
     border:none;
